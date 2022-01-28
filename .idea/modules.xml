@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdmiralJava/ConfigCheck.iml" filepath="$PROJECT_DIR$/AdmiralJava/ConfigCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasics00/JavaBasics00.iml" filepath="$PROJECT_DIR$/JavaBasics00/JavaBasics00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaKata/JavaKata.iml" filepath="$PROJECT_DIR$/JavaKata/JavaKata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Training.iml" filepath="$PROJECT_DIR$/.idea/Java_Training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPExample/OOPExample.iml" filepath="$PROJECT_DIR$/OOPExample/OOPExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SolarSystem/SolarSystem.iml" filepath="$PROJECT_DIR$/SolarSystem/SolarSystem.iml" />
+    </modules>
+  </component>
+</project>

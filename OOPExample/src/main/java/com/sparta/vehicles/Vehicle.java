@@ -1,6 +1,6 @@
 package com.sparta.vehicles;
 
-public class Vehicle {
+public abstract class Vehicle {
     private String make;
     private String model;
     private String licencePlate;
@@ -9,7 +9,7 @@ public class Vehicle {
     private String type;
     private int fuelLevel;
     private boolean isMOTed;
-
+    
     public Vehicle(String make, String model, String licencePlate, String engineSize, String colour, String type, int fuelLevel, boolean isMOTed) {
         this.make = make;
         this.model = model;
