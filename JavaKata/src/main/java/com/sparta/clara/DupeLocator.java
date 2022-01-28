@@ -14,11 +14,8 @@ public class DupeLocator {
     public List<String> dupeValueFinder(String passedName) {
         // Search a String and return an array of duplicate values
         List<String> duplicateValues = new ArrayList<>();
-
         String name = passedName.toLowerCase();
-
         String[] dupeStringValues = name.split("");
-
         List<String> dupeListValues = new LinkedList<>(Arrays.asList(dupeStringValues));
 
         while (dupeListValues.size() > 0){
@@ -32,10 +29,8 @@ public class DupeLocator {
                 if (val.equals(dupeListValues.get(j))){
                     duplicateValues.add(val);
                 }
-
             }
         }
-
         Set<String> set = new HashSet<>(duplicateValues);
         duplicateValues.clear();
         duplicateValues.addAll(set);
