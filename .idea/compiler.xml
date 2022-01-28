@@ -10,6 +10,7 @@
         <module name="OOPExample" />
         <module name="ConfigCheck" />
         <module name="JavaKata" />
+        <module name="SortingAlgorithms" />
         <module name="SolarSystem" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="JavaKata" target="17" />
       <module name="OOPExample" target="17" />
       <module name="SolarSystem" target="17" />
+      <module name="SortingAlgorithms" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
