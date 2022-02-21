@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdvancedJUnitAndDragons/AdvancedJUnitAndDragons.iml" filepath="$PROJECT_DIR$/AdvancedJUnitAndDragons/AdvancedJUnitAndDragons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BDDCalculator/BDDCalculator.iml" filepath="$PROJECT_DIR$/BDDCalculator/BDDCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdmiralJava/ConfigCheck.iml" filepath="$PROJECT_DIR$/AdmiralJava/ConfigCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryExample/FactoryExample.iml" filepath="$PROJECT_DIR$/FactoryExample/FactoryExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileIOExample/FileIOExample.iml" filepath="$PROJECT_DIR$/FileIOExample/FileIOExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GenericsDemo/GenericsDemo.iml" filepath="$PROJECT_DIR$/GenericsDemo/GenericsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBCExample/JDBCExample.iml" filepath="$PROJECT_DIR$/JDBCExample/JDBCExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUnitTestPractise/JUnitTestPractise.iml" filepath="$PROJECT_DIR$/JUnitTestPractise/JUnitTestPractise.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasics00/JavaBasics00.iml" filepath="$PROJECT_DIR$/JavaBasics00/JavaBasics00.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaKata/JavaKata.iml" filepath="$PROJECT_DIR$/JavaKata/JavaKata.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Training.iml" filepath="$PROJECT_DIR$/.idea/Java_Training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NestedClasses/NestedClasses.iml" filepath="$PROJECT_DIR$/NestedClasses/NestedClasses.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPExample/OOPExample.iml" filepath="$PROJECT_DIR$/OOPExample/OOPExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RaindropsTDD/RaindropsTDD.iml" filepath="$PROJECT_DIR$/RaindropsTDD/RaindropsTDD.iml" />
       <module fileurl="file://$PROJECT_DIR$/SolarSystem/SolarSystem.iml" filepath="$PROJECT_DIR$/SolarSystem/SolarSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Swinging on the Stringing/Swinging on the Stringing.iml" filepath="$PROJECT_DIR$/Swinging on the Stringing/Swinging on the Stringing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" filepath="$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" />
     </modules>
   </component>
 </project>

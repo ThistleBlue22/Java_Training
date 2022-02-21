@@ -8,6 +8,18 @@
         <option value="$PROJECT_DIR$/AdmiralJava/pom.xml" />
         <option value="$PROJECT_DIR$/SolarSystem/pom.xml" />
         <option value="$PROJECT_DIR$/JavaBasics00/pom.xml" />
+        <option value="$PROJECT_DIR$/JUnitTestPractise/pom.xml" />
+        <option value="$PROJECT_DIR$/FactoryExample/pom.xml" />
+        <option value="$PROJECT_DIR$/Exceptions/pom.xml" />
+        <option value="$PROJECT_DIR$/NestedClasses/pom.xml" />
+        <option value="$PROJECT_DIR$/GenericsDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Swinging on the Stringing/pom.xml" />
+        <option value="$PROJECT_DIR$/RaindropsTDD/pom.xml" />
+        <option value="$PROJECT_DIR$/BDDCalculator/pom.xml" />
+        <option value="$PROJECT_DIR$/FileIOExample/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBCExample/pom.xml" />
+        <option value="$PROJECT_DIR$/ThreadDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/AdvancedJUnitAndDragons/pom.xml" />
       </list>
     </option>
   </component>

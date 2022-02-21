@@ -7,18 +7,42 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaBasics00" />
-        <module name="OOPExample" />
+        <module name="Swinging on the Stringing" />
+        <module name="JDBCExample" />
         <module name="ConfigCheck" />
-        <module name="JavaKata" />
+        <module name="ThreadDemo" />
         <module name="SolarSystem" />
+        <module name="BDDCalculator" />
+        <module name="AdvancedJUnitAndDragons" />
+        <module name="FileIOExample" />
+        <module name="JavaKata" />
+        <module name="JUnitTestPractise" />
+        <module name="Exceptions" />
+        <module name="OOPExample" />
+        <module name="GenericsDemo" />
+        <module name="FactoryExample" />
+        <module name="NestedClasses" />
+        <module name="RaindropsTDD" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AdvancedJUnitAndDragons" target="17" />
+      <module name="BDDCalculator" target="17" />
       <module name="ConfigCheck" target="17" />
+      <module name="Exceptions" target="17" />
+      <module name="FactoryExample" target="17" />
+      <module name="FileIOExample" target="17" />
+      <module name="GenericsDemo" target="17" />
       <module name="JavaBasics00" target="17" />
       <module name="JavaKata" target="17" />
+      <module name="JDBCExample" target="17" />
+      <module name="JUnitTestPractise" target="17" />
+      <module name="NestedClasses" target="17" />
       <module name="OOPExample" target="17" />
+      <module name="RaindropsTDD" target="17" />
       <module name="SolarSystem" target="17" />
+      <module name="Swinging on the Stringing" target="17" />
+      <module name="ThreadDemo" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

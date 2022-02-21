@@ -3,7 +3,7 @@ package com.sparta.clara;
 public class TheShapeClub {
     public static void main(String[] args) {
         TheShapeClub tSC = new TheShapeClub();
-        System.out.println(tSC.shapeAndString("Circle", 12.4));
+        System.out.println(tSC.shapeAndString("Square", 45.6));
     }
 
 
