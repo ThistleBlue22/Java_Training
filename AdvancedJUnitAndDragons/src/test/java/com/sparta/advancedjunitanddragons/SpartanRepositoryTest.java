@@ -10,9 +10,13 @@ public class SpartanRepositoryTest {
     @BeforeAll
     public static void setUp(){
         SpartanRepository.addSpartan(new Spartan(1, "Natasha Reilly",
-                "Java SDET", LocalDate.of(2022, 2, 21)));
+                "Java SDET", LocalDate.of(2022, 1, 17)));
         SpartanRepository.addSpartan(new Spartan(2, "Sajad Gulzar", "Java SDET",
-                LocalDate.of(2022, 2, 22)));
+                LocalDate.of(2022, 1, 17)));
+        SpartanRepository.addSpartan(new Spartan(3, "Conor Porteous", "Java SDET",
+                LocalDate.of(2022, 1, 17)));
+        SpartanRepository.addSpartan(new Spartan(4, "Autumn Peles", "Java Developer",
+                LocalDate.of(2022, 1, 17)));
     }
 
     @Nested
@@ -22,12 +26,28 @@ public class SpartanRepositoryTest {
         @DisplayName("Natasha")
         public void checkNatasha(){
             Assertions.assertTrue(SpartanRepository.findSpartan(1).get().getCourse().equals("Java SDET"));
+            // Passes
         }
 
         @Test
         @DisplayName("Sajad")
         public void checkSajad(){
             Assertions.assertTrue(SpartanRepository.findSpartan(2).get().getCourse().equals("Java SDET"));
+            // Passes
+        }
+
+        @Test
+        @DisplayName("Conor")
+        public void checkConor(){
+            Assertions.assertTrue(SpartanRepository.findSpartan(3).get().getCourse().equals("Java SDET"));
+            // Passes
+        }
+
+        @Test
+        @DisplayName("Autumn")
+        public void checkAutumn(){
+            Assertions.assertTrue(SpartanRepository.findSpartan(4).get().getCourse().equals("Java SDET"));
+            // Fails
         }
     }
 
