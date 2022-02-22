@@ -15,7 +15,7 @@ public class SpartanRepositoryTest {
                 LocalDate.of(2022, 1, 17)));
         SpartanRepository.addSpartan(new Spartan(3, "Conor Porteous", "Java SDET",
                 LocalDate.of(2022, 1, 17)));
-        SpartanRepository.addSpartan(new Spartan(4, "Autumn Peles", "Java Developer",
+        SpartanRepository.addSpartan(new Spartan(4, "Clara Oswin Oswald", "Java Developer",
                 LocalDate.of(2022, 1, 17)));
     }
 
@@ -44,8 +44,8 @@ public class SpartanRepositoryTest {
         }
 
         @Test
-        @DisplayName("Autumn")
-        public void checkAutumn(){
+        @DisplayName("Clara")
+        public void checkClara(){
             Assertions.assertTrue(SpartanRepository.findSpartan(4).get().getCourse().equals("Java SDET"));
             // Fails
         }
@@ -86,5 +86,10 @@ public class SpartanRepositoryTest {
         InOrder order = Mockito.inOrder(spyAiden);
         order.verify(spyAiden).getName();
         order.verify(spyAiden).getCourse();
+    }
+
+    @Test
+    public void mocking(){
+
     }
 }

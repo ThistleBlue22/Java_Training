@@ -1,5 +1,7 @@
 package com.sparta.advancedjunitanddragons;
 
+import com.github.javafaker.Faker;
+
 import java.time.LocalDate;
 import java.util.Optional;
 
@@ -11,6 +13,13 @@ public class App
 {
     public static void main( String[] args )
     {
+
+//        Faker faker = new Faker();
+//
+//        Spartan newSpartan = new Spartan(Integer.parseInt(faker.number().digit()), faker.name().firstName() + " " + faker.name().lastName(), faker.job().title(), LocalDate.now());
+//
+//        System.out.println(newSpartan);
+
         Spartan natasha = new Spartan(1, "Natasha Reilly",
                 "Java SDET", LocalDate.of(2022, 2, 21));
         System.out.println(natasha);

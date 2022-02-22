@@ -1,5 +1,6 @@
 package com.sparta.advancedjunitanddragons;
 
+import com.github.javafaker.Faker;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.condition.EnabledIf;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -83,6 +84,62 @@ public class SpartanTest {
                 Arguments.arguments(new Spartan(4, "test4", "Java Dev",
                         LocalDate.of(2022, 2, 21)), 4)
         );
+    }
+
+    @Test
+    @DisplayName("A test with the faker framework, returning a random assortment on information")
+    public void aTestWithTheFakerFrameworkReturningARandomAssortmentOnInformation(){
+        Faker faker = new Faker();
+        int idNumber = (int) faker.number().randomNumber();
+        String name = faker.name().firstName() + " " + faker.name().lastName();
+        String name3 = faker.chuckNorris().fact();
+        String course = faker.job().title();
+        LocalDate localDate = LocalDate.now();
+
+        String expected = "Spartan{id=" + idNumber +", name='" + name + "', course='" + course + "', startDate=" + localDate +"}";
+
+        Spartan actual = new Spartan(idNumber, name, course, localDate);
+
+        System.out.println(actual);
+
+        Assertions.assertEquals(expected, actual.toString());
+
+
+    }
+
+    @Test
+    @DisplayName("A test with the faker framework, returning a somewhat random assortment on information")
+    public void aTestWithTheFakerFrameworkReturningASomewhatRandomAssortmentOnInformation(){
+        Faker faker = new Faker();
+        int idNumber = (int) faker.number().randomNumber();
+        String name = faker.name().firstName() + " " + faker.name().lastName();
+        LocalDate localDate = LocalDate.now();
+
+        String expected = "Spartan{id=" + idNumber +", name='" + name + "', course='Java SDET', startDate=" + localDate +"}";
+
+        Spartan actual = new Spartan(idNumber, name, "Java SDET", localDate);
+
+        Assertions.assertEquals(expected, actual.toString());
+
+
+    }
+
+    @Test
+    @DisplayName("A test with the faker framework, returning a random assortment on information and a flat first name")
+    public void aTestWithTheFakerFrameworkReturningARandomAssortmentOnInformationAndAFlatFirstName(){
+        Faker faker = new Faker();
+        int idNumber = (int) faker.number().randomNumber();
+        String name = "Clara " + faker.name().lastName();
+        String course = faker.job().title();
+        LocalDate localDate = LocalDate.now();
+
+        String expected = "Spartan{id=" + idNumber +", name='" + name + "', course='" + course + "', startDate=" + localDate +"}";
+
+        Spartan actual = new Spartan(idNumber, name, course, localDate);
+
+        Assertions.assertEquals(expected, actual.toString());
+
+
     }
 
 }
