@@ -21,6 +21,9 @@
         <option value="$PROJECT_DIR$/ThreadDemo/pom.xml" />
         <option value="$PROJECT_DIR$/AdvancedJUnitAndDragons/pom.xml" />
         <option value="$PROJECT_DIR$/SimpleHTTP/pom.xml" />
+        <option value="$PROJECT_DIR$/JacksonExample/pom.xml" />
+        <option value="$PROJECT_DIR$/SeleniumWork/pom.xml" />
+        <option value="$PROJECT_DIR$/HackerNewsSeleniumTesting/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,5 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/AdvancedJUnitAndDragons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AdvancedJUnitAndDragons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HackerNewsSeleniumTesting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HackerNewsSeleniumTesting/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SeleniumWork/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SeleniumWork/src/main/resources" charset="UTF-8" />
   </component>
 </project>

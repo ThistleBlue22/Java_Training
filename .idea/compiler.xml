@@ -9,11 +9,14 @@
         <module name="JavaBasics00" />
         <module name="Swinging on the Stringing" />
         <module name="JDBCExample" />
+        <module name="SeleniumWork" />
         <module name="ConfigCheck" />
+        <module name="JacksonExample" />
         <module name="ThreadDemo" />
         <module name="SolarSystem" />
         <module name="BDDCalculator" />
         <module name="AdvancedJUnitAndDragons" />
+        <module name="HackerNewsSeleniumTesting" />
         <module name="FileIOExample" />
         <module name="JavaKata" />
         <module name="SimpleHTTP" />
@@ -34,6 +37,8 @@
       <module name="FactoryExample" target="17" />
       <module name="FileIOExample" target="17" />
       <module name="GenericsDemo" target="17" />
+      <module name="HackerNewsSeleniumTesting" target="17" />
+      <module name="JacksonExample" target="17" />
       <module name="JavaBasics00" target="17" />
       <module name="JavaKata" target="17" />
       <module name="JDBCExample" target="17" />
@@ -41,6 +46,7 @@
       <module name="NestedClasses" target="17" />
       <module name="OOPExample" target="17" />
       <module name="RaindropsTDD" target="17" />
+      <module name="SeleniumWork" target="1.7" />
       <module name="SimpleHTTP" target="17" />
       <module name="SolarSystem" target="17" />
       <module name="Swinging on the Stringing" target="17" />
