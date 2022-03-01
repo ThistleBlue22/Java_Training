@@ -1,4 +1,4 @@
-package com.spartahackernews;
+package com.sparta.hackernews;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;

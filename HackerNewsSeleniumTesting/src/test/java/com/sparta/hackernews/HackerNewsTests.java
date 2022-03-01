@@ -1,4 +1,4 @@
-package com.spartahackernews;
+package com.sparta.hackernews;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
@@ -7,9 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.*;
 import java.text.DateFormat;
@@ -50,10 +47,12 @@ public class HackerNewsTests {
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
-//    @AfterAll
-//    static void tearDownAll(){
-//        webDriver.quit();
-//    }
+    @AfterAll
+    static void tearDownAll(){
+        webDriver.quit();
+    }
+
+
 
     @Test
     @DisplayName("Checking the webdriver works")
@@ -117,6 +116,15 @@ public class HackerNewsTests {
     void loginToTheWebsite() {
         webDriver.findElement(By.linkText("login")).click();
         userLogin();
+    }
+
+    @Test
+    @DisplayName("Login with invalid information")
+    void loginWithInvalidInformation() {
+        webDriver.findElement(By.linkText("login")).click();
+        webDriver.findElement(By.cssSelector("body > form:nth-child(4) > table > tbody > tr:nth-child(1) > td:nth-child(2) > input[type=text]")).sendKeys("ThistleBlue");
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+        webDriver.findElement(By.cssSelector("body > form:nth-child(4) > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=password]")).sendKeys("password", Keys.ENTER);
     }
 
     @Test

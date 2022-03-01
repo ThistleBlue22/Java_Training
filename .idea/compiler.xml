@@ -46,7 +46,7 @@
       <module name="NestedClasses" target="17" />
       <module name="OOPExample" target="17" />
       <module name="RaindropsTDD" target="17" />
-      <module name="SeleniumWork" target="1.7" />
+      <module name="SeleniumWork" target="8" />
       <module name="SimpleHTTP" target="17" />
       <module name="SolarSystem" target="17" />
       <module name="Swinging on the Stringing" target="17" />
