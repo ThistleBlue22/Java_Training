@@ -32,7 +32,6 @@ public class HackerNewsTests {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         System.out.println(testInfo.getDisplayName());
         options = new ChromeOptions();
-        //options.addArguments("headless");
         service = new ChromeDriverService.Builder().usingDriverExecutable(new File("src/test/resources/chromedriver.exe")).usingAnyFreePort().build();
         webDriver = new ChromeDriver(options);
         try (InputStream is = new FileInputStream("password.properties")){
@@ -139,7 +138,6 @@ public class HackerNewsTests {
         webDriver.findElement(By.linkText("logout")).click();
 
     }
-
 
     private void userLogin() {
         webDriver.findElement(By.cssSelector("body > form:nth-child(4) > table > tbody > tr:nth-child(1) > td:nth-child(2) > input[type=text]")).sendKeys("ThistleBlue");
